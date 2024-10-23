@@ -1,0 +1,385 @@
+@media (max-width: 800px) {
+    .navbar-menu .navbar-item {
+        max-width: 100%;
+        padding-right: 2rem;
+    }
+
+    .navbar-menu .navbar-item a {
+        font-size: 1.8rem;
+    }
+
+    .login-btn {
+        padding: 0.8rem 2.5rem;
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-menu {
+        position: absolute;
+        background-color: #224F34;
+        top: 8.3rem;
+        width:18rem;
+        height: 25rem;
+        border-radius: 1rem;
+        right:6rem;
+        /* display: none; */
+        flex-direction: column;
+
+    }
+
+    .navbar-menu .navbar-item a {
+        color: #6BC785;
+    }
+
+    .navbar-menu .navbar-item {
+        padding: 2rem;
+    }
+
+    .navbar-toggler {
+        display: block;
+        color: #224F34;
+    }
+}
+
+
+@media (max-width: 800px) {
+    .banner-left h1 {
+        font-size: 4rem;
+        line-height: 5rem;
+    }
+
+    .main-banner .banner-left p {
+        font-size: 2.7rem;
+    }
+
+    .main-banner .banner-right {
+        width: 35rem;
+        height: 40rem;
+    }
+
+    .banner-right img {
+        max-height: 40rem;
+    }
+
+    .best-selling-content {
+        gap: 5.4rem;
+    }
+
+    .row {
+        gap: 1.2rem;
+    }
+
+    .row-box1 {
+        max-height: 56rem;
+    }
+
+    .row-box1-img {
+        height: 56rem;
+    }
+
+    .offer-h2 {
+        font-size: 3.2rem;
+    }
+
+
+    .time {
+        gap: 1rem;
+    }
+
+    /* 
+    .days,
+    .hours,
+    .mintues {
+        padding: 1rem;
+    } */
+
+    .footer {
+        gap: 4.5rem;
+    }
+
+    .home-demo {
+        padding-bottom: 7.5rem;
+    }
+
+    .card {
+        max-width: 29rem;
+    }
+
+    .card_card1_img {
+        width: 33rem;
+    }
+
+    .card_button {
+        margin-top: 11.5rem;
+    }
+
+    .card4_img,
+    .card1_img {
+        width: 33rem;
+        height: 43.5rem;
+        object-fit: cover;
+    }
+}
+
+@media (max-width: 768px) {
+    .banner-left h1 {
+        font-size: 4rem;
+        line-height: 60px;
+
+    }
+
+    .banner-left p {
+        font-size: 1.6rem;
+
+    }
+
+    .main-banner .banner-right {
+        width: 48rem;
+        height: 35rem;
+    }
+
+    .banner-right img {
+        max-height: 35rem;
+
+    }
+
+    .home-page-offer-right {
+        display: none;
+    }
+
+    .days,
+    .hours,
+    .mintues {
+        padding: 3rem;
+    }
+
+    .card-body .card-title {
+        font-size: 2rem;
+    }
+
+    .card-body .card-text {
+        font-size: 2rem;
+    }
+
+    .section2-best-selling-h2 {
+        font-size: 4rem;
+    }
+
+    .section2-best-selling-p {
+        font-size: 1.8rem;
+    }
+
+    .home-our-products-h2 {
+        font-size: 4rem;
+        padding-bottom: 10px;
+    }
+
+    .our-products-nav-tab .nav-item {
+        display: inline-block;
+        padding: 1rem;
+    }
+
+    .our-products-nav-tab .nav-item a {
+        font-size: 1.5rem;
+    }
+
+    .card4-h5 {
+        font-size: 2rem;
+    }
+
+    .card4-p2 {
+        font-size: 1.5rem;
+    }
+
+    .item-p {
+        font-size: 1rem;
+        line-height: 2rem;
+        margin: 0;
+    }
+}
+
+@media (max-width:600px) {
+
+    .modal-content {
+        width: 80%;
+    }
+
+    .container {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .navbar .navbar-logo a {
+        font-size: 3.5rem;
+    }
+
+    .login-btn {
+        padding: 0.8rem 1.5rem;
+    }
+
+    .ri-handbag-line {
+        margin-right: 1rem;
+    }
+
+    .banner-left {
+        text-align: center;
+    }
+
+    .main-banner .banner-right {
+        display: none;
+    }
+
+    .days,
+    .hours,
+    .mintues {
+        padding: 3rem;
+    }
+
+    /* 
+    .row {
+        gap: 0;
+        max-height: 46rem;
+    }
+
+    .row-box1 {
+        max-height: 46rem;
+        display: none;
+    }
+
+    .row-box1-img {
+        height: 46rem;
+    } */
+
+    .offer-h2 {
+        font-size: 2.6rem;
+    }
+
+    .row-box2 {
+        /* margin-top: 90px; */
+        margin-top: 0rem;
+        padding: 2.8rem;
+    }
+
+    .footer-box4 input {
+        padding: 0.8rem 2.5rem 0.8rem 2rem;
+    }
+}
+
+@media (max-width:360px) {
+
+    .banner-left h1 {
+        font-size: 2.2rem;
+        line-height: 4rem;
+
+    }
+
+    .banner-left p {
+        font-size: 1.6rem;
+
+    }
+
+    .banner-right-btn {
+        padding: 1.2rem 2.6rem;
+        font-size: 1.6rem;
+        margin: 1rem;
+    }
+
+    .banner-right {
+        width: 22rem;
+        height: 25rem;
+        border-top-left-radius: 8rem;
+        border-top-right-radius: 1.5rem;
+        border-bottom-right-radius: 8rem;
+        border-bottom-left-radius: 1.5rem;
+        display: none;
+    }
+
+    .section2-best-selling-h2 {
+        font-size: 5rem;
+    }
+
+    .section2-best-selling-p {
+        font-size: 1.6rem;
+    }
+
+    .container5_h2,
+    .container3_h2 {
+        font-size: 3rem;
+        font-weight: 500;
+        color: #224F34;
+    }
+
+    .nav-tab .nav-item {
+        padding: 1rem;
+    }
+
+    .nav-tab .nav-item a {
+        font-size: 1.2rem;
+    }
+
+    .row {
+        gap: 0;
+        max-height: 31rem;
+    }
+
+    .row-box1 {
+        max-height: 31rem;
+        display: none;
+    }
+
+    .row-box1-img {
+        height: 31rem;
+    }
+
+    .offer-h2 {
+        font-size: 2rem;
+    }
+
+    .row-box2 {
+        margin-top: 5rem;
+    }
+
+    .row-box2-p {
+        font-size: 1.2rem;
+        line-height: 2.5rem;
+        margin: 0.8rem 0;
+    }
+
+    .row-box2-btn {
+        padding: 0.8rem 2rem;
+        font-size: 1.2rem;
+        margin-top: 1.8rem;
+    }
+
+    .footer-box2,
+    .footer-box4 {
+        margin: 1rem 0;
+    }
+
+
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    .psw {
+        display: block;
+        float: none;
+    }
+
+    .cancelbtn {
+        width: 100%;
+    }
+
+    .banner-right img {
+        display: none;
+    }
+
+    .banner-right {
+        display: none;
+    }
+
+    .row-box1 {
+        display: none;
+    }
+}
