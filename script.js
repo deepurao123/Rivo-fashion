@@ -1,7 +1,37 @@
+// modal login form
+// Get the modal
+let modal = document.getElementById("id01");
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function (event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+};
+const loginBtn = document.getElementById("login-button");
+
+loginBtn.addEventListener("click", function () {
+  document.getElementById("id01").style.display = "block";
+});
+
+const closeBtn = document.getElementById("close");
+
+closeBtn.addEventListener("click", function () {
+  document.getElementById("id01").style.display = "none";
+});
+
+const cancelbtn = document.getElementById("cancel");
+
+cancelbtn.addEventListener("click", function () {
+  document.getElementById("id01").style.display = "none";
+});
+
+
+
 // scripts.js
 document.addEventListener("DOMContentLoaded", () => {
-  const navbarToggler = document.getElementById("navbar_toggler");
-  const navbarMenu = document.getElementById("navbar_menu");
+  const navbarToggler = document.getElementById("navbar-toggler");
+  const navbarMenu = document.getElementById("navbar-menu");
 
   navbarToggler.addEventListener("click", () => {
     if (navbarMenu.style.display === "flex") {
@@ -38,33 +68,23 @@ $(function () {
   });
 });
 
-// Get the modal
-let modal = document.getElementById("id01");
+// date and time
+function updateDateTime() {
+  const dateElement = document.getElementById("date");
+  const now = new Date();
+  const dateOptions = { day: "numeric" };
+  const hours = now.getHours();
+  const minutes = now.getMinutes();
 
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function (event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-};
+  dateElement.textContent = now.toLocaleDateString(undefined, dateOptions);
+  document.getElementById("hours").textContent =
+    hours < 10 ? "0" + hours : hours;
+  document.getElementById("minutes").textContent =
+    minutes < 10 ? "0" + minutes : minutes;
+}
 
-// // date and time
-// function updateDateTime() {
-//   const dateElement = document.getElementById("date");
-//   const now = new Date();
-//   const dateOptions = { day: "numeric" };
-//   const hours = now.getHours();
-//   const minutes = now.getMinutes();
+// Update the time immediately
+updateDateTime();
 
-//   dateElement.textContent = now.toLocaleDateString(undefined, dateOptions);
-//   document.getElementById("hours").textContent =
-//     hours < 10 ? "0" + hours : hours;
-//   document.getElementById("minutes").textContent =
-//     minutes < 10 ? "0" + minutes : minutes;
-// }
-
-// // Update the time immediately
-// updateDateTime();
-
-// // Update the time every minute
-// setInterval(updateDateTime, 60000);
+// Update the time every minute
+setInterval(updateDateTime, 60000);
